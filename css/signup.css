@@ -1,0 +1,113 @@
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        left: 0;
+        
+        top: 0;
+        width: 100%;
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .signup-content {
+        display: flex;
+        flex-direction: column;
+        background-color: #fefefe;
+        border: 1px solid #888;
+        width: 50%;
+        
+        /* Could be more or less, depending on screen size */
+    }
+
+    .head{
+        display: flex;
+        padding:20px 50px 20px 50px;
+        justify-content: space-between;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    /* The Close Button */
+    .signclose {
+        color: rgb(118, 113, 113);
+        padding: 0px 10px;
+        float: right;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .signclose:hover,
+    .signclose:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+     form{
+        display: flex;
+        padding: 0px 50px 20px 50px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+     }
+
+     .form-group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+     }
+
+     .form-group .fa-solid{
+        border: 1px solid #ced4da;
+        background-color: rgb(239, 239, 232);
+        padding: 10px;
+        height: calc(1.5em + 0.75rem + 2px);
+        font-size: 1rem;
+     }
+
+     .lastfoot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        padding:10px 50px 10px 50px;
+     }
+
+     .lastfoot a {
+        text-decoration: none;
+        margin: 0px 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: black;
+        padding: 10px 20px;
+    }
+    
+    .lastfoot a:hover{
+       color: white;
+       background-color: rgb(79, 89, 89);
+    }
+
+    @media(max-width:768px){
+        .signup-content {
+            width: 100%;
+        }
+        
+    }
+     

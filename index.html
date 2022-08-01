@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Welcome | PG Life</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/home1.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/609eae216a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Login Modal Content-->
+    <div id="logModal" class="loginmodal">
+
+        <!-- Modal content -->
+        <div class="login-content">
+
+
+            <div class="loginhead">
+                <span id="lcontent"> Login for PG Life</span>
+                <span class="loginclose">&times;</span>
+            </div>
+            <hr>
+
+            <form>
+
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+
+
+                <div class="form-group">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <div class="lastfoot">
+                <h4>Not Signed in ?</h4>
+                <a href="#">Signup now</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+<!--Main page content starts here-->
+
+    <div class="header">
+        <!--navigation bar-->
+        <nav>
+            <a href="index1.php">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </nav>
+
+        <div class="hamburger">
+            <!-- <img src="img\download.png" alt="hamburger">-->
+
+            <div class="bun">
+                <div class="patty1"> </div>
+                <div class="patty2"> </div>
+                <div class="patty3"> </div>
+            </div>
+        </div>
+
+
+        <div class="navbuttons">
+
+            <!--Button for Signup Modal-->
+            <div class="Btn">
+                <button id="myBtn">
+                    <i class="fa-solid fa-user"></i>
+                    Signup
+                </button>
+            </div>
+
+            <!--Button for Login Modal-->
+            <div class="loginbutton">
+                <button id="button">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    Login
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="middleBanner">
+        <h1>Happiness Per Square Foot</h1>
+        <div id="search">
+            <input type="text" name="searchbar" id="bar" placeholder="Enter your city to search for PG's">
+            <button>Search</button>
+        </div>
+
+    </div>
+
+    <div class="lastbanner">
+        <h1>Major Cities</h1>
+
+        <div class="cities">
+            <div>
+                <a href="property_list.html" id="1">
+                    <img src="img/delhi.png" alt="delhi">
+                </a>
+            </div>
+
+            <div>
+                <a href="property_list.html" id="2">
+                    <img src="img/hyderabad.png" alt="hyderabad">
+                </a>
+            </div>
+
+            <div>
+                <a href="property_list.html" id="3">
+                    <img src="img/mumbai.png" alt="mumbai">
+                </a>
+            </div>
+            <div>
+                <a href="property_list.html" id="4">
+                    <img src="img/bangalore.png" alt="banglore">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div><a href="property_list.html">PG in Delhi</a></div>
+        <div><a href="property_list.html">PG in Banglore</a></div>
+        <div><a href="property_list.html">PG in Hyderabad</a></div>
+        <div><a href="property_list.html">PG in Mumbai</a></div>
+
+    </div>
+
+
+
+    <!--Signup modal content-->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="signup-content">
+
+
+            <div class="head">
+                <span id="content"> Signup for PG Life</span>
+                <span class="signclose">&times;</span>
+            </div>
+            <hr>
+
+            <form>
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Full Name">
+                </div>
+
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="College Name">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <div class="lastfoot">
+                <h4>Already Signed in ?</h4>
+                <a href="#">Login now</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
